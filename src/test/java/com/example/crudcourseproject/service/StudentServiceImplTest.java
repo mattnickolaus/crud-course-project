@@ -20,7 +20,7 @@ public class StudentServiceImplTest {
     @Test
     void getAllStudents() {
         List<Student> items = repository.findAll();
-        assertEquals(1, items.size());
+        assertEquals(2, items.size());
     }
 
     @Test
